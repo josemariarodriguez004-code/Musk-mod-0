@@ -1,0 +1,49 @@
+{
+  "fecha": "2026-11-21",
+  "entorno": {
+    "node": "24.22.3",
+    "npm": "11.19.1"
+  },
+  "jest": {
+    "comandos": [
+      "npm test",
+      "npm test -- --runInBand --ci --coverage"
+    ],
+    "suites_aprobadas": 4,
+    "tests_aprobados": 12,
+    "tests_fallidos": 0,
+    "snapshots_coincidentes": 1,
+    "snapshots_actualizados": 0
+  },
+  "cobertura_porcentaje": {
+    "lines": 96.82,
+    "statements": 95.89,
+    "functions": 100,
+    "branches": 92.98
+  },
+  "alcance_cobertura": "Archivos JS y JSX de src; main.jsx excluido. La cobertura no demuestra ausencia de errores.",
+  "compilacion": {
+    "comando": "npm run build",
+    "resultado": "correcto"
+  },
+  "revision_navegador": {
+    "motor": "Chromium",
+    "anchos_px": [
+      1440,
+      375
+    ],
+    "comprobaciones": [
+      "validación de texto vacío",
+      "recorte de espacios",
+      "añadir y limpiar input",
+      "completar al pulsar el texto",
+      "persistencia al recargar",
+      "eliminar y mantener eliminación al recargar",
+      "completar con teclado Espacio",
+      "sin desbordamiento horizontal a 375 px",
+      "sin errores JavaScript no controlados"
+    ],
+    "resultado": "correcto"
+  },
+  "limites": "Los tests Jest se ejecutan en jsdom. El snapshot compara DOM, no píxeles. La revisión de Chromium es una comprobación adicional, no una suite de compatibilidad entre todos los navegadores."
+}

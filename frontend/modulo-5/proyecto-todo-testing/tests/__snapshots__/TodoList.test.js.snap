@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`TodoList · prueba de snapshot genera el snapshot de la lista de dos tareas 1`] = `
+<DocumentFragment>
+  <ul
+    aria-label="Lista de tareas"
+    class="todo-list"
+  >
+    <li
+      class="todo-item"
+    >
+      <span
+        class="task-text"
+      >
+        Tarea 1
+      </span>
+    </li>
+    <li
+      class="todo-item"
+    >
+      <span
+        class="task-text"
+      >
+        Tarea 2
+      </span>
+    </li>
+  </ul>
+</DocumentFragment>
+`;
